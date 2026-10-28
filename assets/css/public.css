@@ -1,0 +1,22 @@
+/**
+ * Astro Animations - Frontend Public Styles
+ *
+ * @package AstroAnimations
+ */
+
+.astro-anim-root {
+  display: block;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.astro-anim-root *,
+.astro-anim-root *::before,
+.astro-anim-root *::after {
+  box-sizing: border-box;
+}
+
+/* Base styles for lazy-loaded root containers */
+.astro-anim-root[data-lazy="1"]:not(.is-in-view) {
+  content-visibility: auto;
+}

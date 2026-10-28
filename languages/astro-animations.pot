@@ -1,0 +1,331 @@
+# Copyright (C) 2026 Astro Animations Contributors
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Astro Animations 1.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/ferhat/astro-animations/issues\n"
+"POT-Creation-Date: 2026-10-28 20:36+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2026-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: Astro Animations i18n Builder\n"
+"X-Domain: astro-animations\n"
+
+#: astro-animations.php:67
+msgid "Dashboard"
+msgstr ""
+
+#: astro-animations.php:68, includes/class-astro-anim-admin.php:54, includes/class-astro-anim-admin.php:336
+msgid "Preset Library"
+msgstr ""
+
+#: includes/class-astro-anim-admin.php:32, includes/class-astro-anim-admin.php:33
+msgid "Astro Animations"
+msgstr ""
+
+#: includes/class-astro-anim-admin.php:43, includes/class-astro-anim-admin.php:44
+msgid "All Animations"
+msgstr ""
+
+#: includes/class-astro-anim-admin.php:51
+msgid "Add New Animation"
+msgstr ""
+
+#: includes/class-astro-anim-admin.php:52
+msgid "Add New"
+msgstr ""
+
+#: includes/class-astro-anim-admin.php:83
+msgid "Shortcode copied to clipboard!"
+msgstr ""
+
+#: includes/class-astro-anim-admin.php:143
+msgid "Copy"
+msgstr ""
+
+#: includes/class-astro-anim-admin.php:174
+msgid "Astro Animations Manager"
+msgstr ""
+
+#: includes/class-astro-anim-admin.php:175
+msgid "Manage interactive Canvas simulations, responsive SVGs, and rich HTML/JS widgets with zero layout shifts."
+msgstr ""
+
+#: includes/class-astro-anim-admin.php:181
+msgid "Preset Library (5 Presets)"
+msgstr ""
+
+#: includes/class-astro-anim-admin.php:186
+msgid "New animation created successfully!"
+msgstr ""
+
+#: includes/class-astro-anim-admin.php:188
+msgid "Animation code and configuration updated."
+msgstr ""
+
+#: includes/class-astro-anim-admin.php:190
+msgid "Animation removed."
+msgstr ""
+
+#: includes/class-astro-anim-admin.php:192
+msgid "Animation publication status changed."
+msgstr ""
+
+#: includes/class-astro-anim-admin.php:194
+msgid "Animation duplicated successfully."
+msgstr ""
+
+#: includes/class-astro-anim-admin.php:199
+msgid "Success! %d presets have been loaded into your library."
+msgstr ""
+
+#: includes/class-astro-anim-admin.php:210
+msgid "No Animations Found"
+msgstr ""
+
+#: includes/class-astro-anim-admin.php:211
+msgid "Get started by installing the 5 built-in presets (Particle Network, 3D Glassmorphic Cards, Kinetic Wave, Morphing Blob, and Feature Showcase) with a single click."
+msgstr ""
+
+#: includes/class-astro-anim-admin.php:216
+msgid "Install 5 Built-in Presets Now"
+msgstr ""
+
+#: includes/class-astro-anim-admin.php:224
+msgid "Title & Description"
+msgstr ""
+
+#: includes/class-astro-anim-admin.php:225
+msgid "Shortcode"
+msgstr ""
+
+#: includes/class-astro-anim-admin.php:226
+msgid "Dimensions"
+msgstr ""
+
+#: includes/class-astro-anim-admin.php:227
+msgid "Status"
+msgstr ""
+
+#: includes/class-astro-anim-admin.php:228
+msgid "Actions"
+msgstr ""
+
+#: includes/class-astro-anim-admin.php:244
+msgid "Copy shortcode to clipboard"
+msgstr ""
+
+#: includes/class-astro-anim-admin.php:258
+msgid "Click to deactivate"
+msgstr ""
+
+#: includes/class-astro-anim-admin.php:259
+msgid "Active"
+msgstr ""
+
+#: includes/class-astro-anim-admin.php:263
+msgid "Click to activate"
+msgstr ""
+
+#: includes/class-astro-anim-admin.php:264
+msgid "Inactive"
+msgstr ""
+
+#: includes/class-astro-anim-admin.php:269
+msgid "Edit"
+msgstr ""
+
+#: includes/class-astro-anim-admin.php:272
+msgid "Duplicate"
+msgstr ""
+
+#: includes/class-astro-anim-admin.php:275
+msgid "Are you sure you want to delete this animation?"
+msgstr ""
+
+#: includes/class-astro-anim-admin.php:276
+msgid "Delete"
+msgstr ""
+
+#: includes/class-astro-anim-admin.php:285
+msgid "How to Embed on Your Pages"
+msgstr ""
+
+#: includes/class-astro-anim-admin.php:286
+msgid "You can embed any animation into any page builder or template:"
+msgstr ""
+
+#: includes/class-astro-anim-admin.php:288
+msgid "Block Editor (Gutenberg):"
+msgstr ""
+
+#: includes/class-astro-anim-admin.php:288
+msgid "Add a \"Shortcode\" block and paste the shortcode."
+msgstr ""
+
+#: includes/class-astro-anim-admin.php:289
+msgid "Page Builders (Elementor, Divi, TagDiv Composer, WPBakery):"
+msgstr ""
+
+#: includes/class-astro-anim-admin.php:289
+msgid "Add a Shortcode or HTML widget and insert the tag."
+msgstr ""
+
+#: includes/class-astro-anim-admin.php:290
+msgid "PHP Templates:"
+msgstr ""
+
+#: includes/class-astro-anim-admin.php:316
+msgid "Edit Animation: %s"
+msgstr ""
+
+#: includes/class-astro-anim-admin.php:317
+msgid "Paste your HTML, CSS, SVG, or JavaScript code and configure container dimensions and isolation."
+msgstr ""
+
+#: includes/class-astro-anim-admin.php:321
+msgid "← Back to All Animations"
+msgstr ""
+
+#: includes/class-astro-anim-admin.php:336
+msgid "Animation Title"
+msgstr ""
+
+#: includes/class-astro-anim-admin.php:342
+msgid "Shortcode Slug"
+msgstr ""
+
+#: includes/class-astro-anim-admin.php:344
+msgid "Usage:"
+msgstr ""
+
+#: includes/class-astro-anim-admin.php:347
+msgid "Description / Internal Note"
+msgstr ""
+
+#: includes/class-astro-anim-admin.php:355
+msgid "HTML / CSS / JS Code"
+msgstr ""
+
+#: includes/class-astro-anim-admin.php:358
+msgid "Live Preview"
+msgstr ""
+
+#: includes/class-astro-anim-admin.php:363
+msgid "Animation Code"
+msgstr ""
+
+#: includes/class-astro-anim-admin.php:366
+msgid "Developer Tip:"
+msgstr ""
+
+#: includes/class-astro-anim-admin.php:366
+msgid "You can paste complete snippets with inline <style> and <script>. The code executes in isolated container context."
+msgstr ""
+
+#: includes/class-astro-anim-admin.php:372
+msgid "Live Interactive Sandbox Preview"
+msgstr ""
+
+#: includes/class-astro-anim-admin.php:374
+msgid "Refresh"
+msgstr ""
+
+#: includes/class-astro-anim-admin.php:385
+msgid "Container & Display"
+msgstr ""
+
+#: includes/class-astro-anim-admin.php:388
+msgid "Max Width (CSS max-width)"
+msgstr ""
+
+#: includes/class-astro-anim-admin.php:394
+msgid "Height / Min-Height"
+msgstr ""
+
+#: includes/class-astro-anim-admin.php:400
+msgid "Alignment"
+msgstr ""
+
+#: includes/class-astro-anim-admin.php:402
+msgid "Center"
+msgstr ""
+
+#: includes/class-astro-anim-admin.php:403
+msgid "Left"
+msgstr ""
+
+#: includes/class-astro-anim-admin.php:404
+msgid "Right"
+msgstr ""
+
+#: includes/class-astro-anim-admin.php:409
+msgid "Background Color"
+msgstr ""
+
+#: includes/class-astro-anim-admin.php:415
+msgid "Performance & Security"
+msgstr ""
+
+#: includes/class-astro-anim-admin.php:419
+msgid "CSS & Layout Isolation"
+msgstr ""
+
+#: includes/class-astro-anim-admin.php:421
+msgid "Applies isolation: isolate and contain: layout to eliminate Cumulative Layout Shift (CLS)."
+msgstr ""
+
+#: includes/class-astro-anim-admin.php:426
+msgid "Lazy Load on Scroll"
+msgstr ""
+
+#: includes/class-astro-anim-admin.php:428
+msgid "Initializes scripts only when entering viewport, maximizing Google Core Web Vitals speed scores."
+msgstr ""
+
+#: includes/class-astro-anim-admin.php:433
+msgid "Custom CSS Class"
+msgstr ""
+
+#: includes/class-astro-anim-admin.php:439
+msgid "Publication Status"
+msgstr ""
+
+#: includes/class-astro-anim-admin.php:443
+msgid "Active (Published)"
+msgstr ""
+
+#: includes/class-astro-anim-admin.php:449
+msgid "Save Changes"
+msgstr ""
+
+#: includes/class-astro-anim-admin.php:449
+msgid "Save & Publish Animation"
+msgstr ""
+
+#: includes/class-astro-anim-admin.php:517
+msgid "Install and explore 5 hand-crafted, high-performance web simulations and interactive UI widgets."
+msgstr ""
+
+#: includes/class-astro-anim-admin.php:524
+msgid "Install / Sync All 5 Presets"
+msgstr ""
+
+#: includes/class-astro-anim-admin.php:538
+msgid "Installed"
+msgstr ""
+
+#: includes/class-astro-anim-public.php:69
+msgid "Astro Animations Notice:"
+msgstr ""
+
+#: includes/class-astro-anim-public.php:71
+msgid "Animation \"%s\" was not found. Please verify the slug or ID in the Astro Animations manager."
+msgstr ""
+
+#: includes/class-astro-anim-public.php:83
+msgid "Astro Animation (\"%s\") is currently inactive and hidden from site visitors."
+msgstr ""

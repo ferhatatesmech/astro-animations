@@ -1,0 +1,472 @@
+/**
+ * Astro Animations - Admin Styles
+ *
+ * @package AstroAnimations
+ */
+
+.astro-admin-wrap {
+  max-width: 1300px;
+  margin: 20px auto;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+.astro-admin-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+  padding: 24px 28px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+  border: 1px solid #e2e8f0;
+}
+
+.astro-admin-header-title h1 {
+  margin: 0 0 6px 0;
+  font-size: 24px;
+  font-weight: 700;
+  color: #1e293b;
+}
+
+.astro-admin-subtitle {
+  margin: 0;
+  color: #64748b;
+  font-size: 14px;
+}
+
+.astro-admin-header-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.astro-admin-header-actions .button-primary {
+  background: #7c67f6 !important;
+  border-color: #6a53f5 !important;
+  box-shadow: 0 4px 12px rgba(124, 103, 246, 0.3) !important;
+  text-shadow: none !important;
+}
+
+.astro-admin-header-actions .button-primary:hover {
+  background: #6a53f5 !important;
+}
+
+/* Card Table */
+.astro-card-table {
+  background: #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+  border: 1px solid #e2e8f0;
+  margin-bottom: 24px;
+}
+
+.astro-card-table .wp-list-table {
+  border: none;
+  box-shadow: none;
+}
+
+.astro-card-table th {
+  background: #f8fafc;
+  color: #475569;
+  font-weight: 600;
+  padding: 14px 16px;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.astro-card-table td {
+  padding: 14px 16px;
+  vertical-align: middle;
+}
+
+.astro-shortcode-box {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #f1f5f9;
+  padding: 4px 8px;
+  border-radius: 6px;
+  border: 1px solid #cbd5e1;
+}
+
+.astro-shortcode-box code {
+  background: transparent;
+  padding: 0;
+  color: #6366f1;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.astro-copy-btn {
+  background: #ffffff !important;
+  border-color: #cbd5e1 !important;
+  font-size: 11px !important;
+  height: 24px !important;
+  line-height: 22px !important;
+  padding: 0 8px !important;
+  cursor: pointer;
+}
+
+.astro-copy-btn:hover {
+  background: #f8fafc !important;
+  border-color: #94a3b8 !important;
+}
+
+.astro-dim-pill {
+  display: inline-block;
+  padding: 3px 8px;
+  border-radius: 999px;
+  background: #f1f5f9;
+  color: #64748b;
+  font-size: 12px;
+  font-family: monospace;
+}
+
+.astro-status-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.astro-status-badge .dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+}
+
+.astro-status-badge.active {
+  background: #dcfce7;
+  color: #15803d;
+}
+
+.astro-status-badge.active .dot {
+  background: #22c55e;
+}
+
+.astro-status-badge.inactive {
+  background: #f1f5f9;
+  color: #64748b;
+}
+
+.astro-status-badge.inactive .dot {
+  background: #94a3b8;
+}
+
+/* Empty Card */
+.astro-empty-card {
+  text-align: center;
+  padding: 60px 20px;
+  background: #ffffff;
+  border-radius: 12px;
+  border: 2px dashed #cbd5e1;
+  margin-bottom: 24px;
+}
+
+.astro-empty-icon {
+  font-size: 48px;
+  color: #8b5cf6;
+  margin-bottom: 16px;
+}
+
+.astro-empty-card h2 {
+  font-size: 20px;
+  color: #1e293b;
+  margin-bottom: 8px;
+}
+
+.astro-empty-card p {
+  color: #64748b;
+  max-width: 500px;
+  margin: 0 auto 24px;
+}
+
+/* Tip Box */
+.astro-admin-tip-box {
+  background: #faf5ff;
+  border-left: 4px solid #8b5cf6;
+  padding: 16px 20px;
+  border-radius: 0 8px 8px 0;
+  margin-top: 24px;
+}
+
+.astro-admin-tip-box h3 {
+  margin: 0 0 8px;
+  font-size: 15px;
+  color: #581c87;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.astro-admin-tip-box p,
+.astro-admin-tip-box ol {
+  margin: 6px 0;
+  color: #6b21a8;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+/* Editor Grid */
+.astro-editor-grid {
+  display: grid;
+  grid-template-columns: 1fr 340px;
+  gap: 24px;
+}
+
+@media (max-width: 960px) {
+  .astro-editor-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.astro-card-box {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+  border: 1px solid #e2e8f0;
+  margin-bottom: 20px;
+}
+
+.astro-card-box h3 {
+  margin: 0 0 16px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #1e293b;
+  border-bottom: 1px solid #f1f5f9;
+  padding-bottom: 10px;
+}
+
+.astro-form-group {
+  margin-bottom: 16px;
+}
+
+.astro-form-group:last-child {
+  margin-bottom: 0;
+}
+
+.astro-form-group label {
+  display: block;
+  font-size: 13px;
+  font-weight: 600;
+  color: #334155;
+  margin-bottom: 6px;
+}
+
+.astro-form-row {
+  display: flex;
+  gap: 16px;
+}
+
+.astro-form-checkbox {
+  margin-bottom: 12px;
+}
+
+.astro-form-checkbox label {
+  font-size: 13px;
+  color: #334155;
+}
+
+.astro-form-checkbox small.description {
+  display: block;
+  margin-left: 24px;
+  margin-top: 4px;
+}
+
+.button-block {
+  width: 100%;
+  text-align: center;
+  background: #7c67f6 !important;
+  border-color: #6a53f5 !important;
+  box-shadow: 0 4px 12px rgba(124, 103, 246, 0.3) !important;
+  text-shadow: none !important;
+}
+
+.button-block:hover {
+  background: #6a53f5 !important;
+}
+
+/* Tabs */
+.astro-tabs-bar {
+  display: flex;
+  gap: 8px;
+  border-bottom: 1px solid #e2e8f0;
+  margin-bottom: 16px;
+  padding-bottom: 8px;
+}
+
+.astro-tab-btn {
+  background: none;
+  border: none;
+  padding: 8px 14px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #64748b;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.astro-tab-btn:hover {
+  background: #f1f5f9;
+  color: #1e293b;
+}
+
+.astro-tab-btn.active {
+  background: #ede9fe;
+  color: #7c67f6;
+}
+
+.astro-tab-content {
+  display: none;
+}
+
+.astro-tab-content.active {
+  display: block;
+}
+
+/* Code Editor */
+.astro-code-editor {
+  width: 100% !important;
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace !important;
+  font-size: 13px !important;
+  line-height: 1.5 !important;
+  background: #1e2340 !important;
+  color: #e2e8f0 !important;
+  border-radius: 8px !important;
+  padding: 14px !important;
+  border: 1px solid #334155 !important;
+  tab-size: 2;
+  box-sizing: border-box;
+}
+
+.astro-code-editor:focus {
+  border-color: #7c67f6 !important;
+  box-shadow: 0 0 0 2px rgba(124, 103, 246, 0.25) !important;
+}
+
+/* Preview Frame */
+.astro-preview-container {
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #f6f8ff;
+}
+
+.astro-preview-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 14px;
+  background: #f1f5f9;
+  border-bottom: 1px solid #e2e8f0;
+  font-size: 12px;
+  font-weight: 600;
+  color: #475569;
+}
+
+#astroPreviewFrame {
+  width: 100%;
+  height: 580px;
+  border: none;
+  display: block;
+  background: #f6f8ff;
+}
+
+/* Presets Grid */
+.astro-presets-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.astro-preset-card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.04);
+  border: 1px solid #e2e8f0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.astro-preset-card.is-installed {
+  border-color: #c4b5fd;
+  background: #faf8ff;
+}
+
+.astro-preset-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.astro-preset-header h4 {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 600;
+  color: #1e293b;
+  flex: 1;
+}
+
+.astro-badge-installed {
+  background: #dcfce7;
+  color: #15803d;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 999px;
+}
+
+.astro-preset-desc {
+  font-size: 13px;
+  color: #64748b;
+  line-height: 1.5;
+  margin-bottom: 14px;
+}
+
+.astro-preset-footer code {
+  display: block;
+  background: #f1f5f9;
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-size: 12px;
+  color: #6366f1;
+  font-weight: 600;
+  word-break: break-all;
+}
+
+/* Toast Notification */
+.astro-toast {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  background: #1e293b;
+  color: #ffffff;
+  padding: 10px 18px;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 500;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+  z-index: 999999;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: all 0.25s ease;
+  pointer-events: none;
+}
+
+.astro-toast.show {
+  opacity: 1;
+  transform: translateY(0);
+}
